@@ -1,0 +1,59 @@
+/*
+HTML 5 Template Name: WorkAholic
+File: Homepage CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+#services{position:relative; margin:-145px 0 0px 0; padding:40px 0 10px 0; background:url("../images/splitter.gif") bottom center no-repeat #FFFFFF; border-top:5px solid #2BBEDD;}
+#services h1{display:block; width:100%; margin:0 0 45px 0; padding:0; text-align:center; color:#1F1F1F; background-color:#FFFFFF; font-size:46px; line-height:42px;}
+#services ul{margin:0 0 20px 0; padding:0; list-style:none; overflow:hidden;}
+#services ul li{display:block; float:left; width:210px; margin-right:20px; padding-top:25px; border-top:1px solid #D7D7D7; text-align:center;}
+#services ul li:hover{border-color:#2BBEDD;}
+#services ul li article{}
+#services ul li img, #services ul li h2{margin:0 0 20px 0;}
+#services ul li h2{font-size:20px;}
+#services ul li p{margin:0; padding:0;}
+#services #carousel_control{display:block; width:100%; text-align:right; clear:both;}
+#services #carousel_control a.disabled{cursor:default;}
+
+#info{}
+#container #info section{margin-bottom:0;}
+#info ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#info ul li{margin-top:40px;}
+#info ul li:first-child{
+	margin-top: 0;
+	font-size: 14px;
+}
+#info ul li p.name{margin:0; padding:15px 0 15px 60px; background:url("../images/blockquote.gif") 0 0 no-repeat;}
+#info ul li blockquote{display:block; margin:0; padding:0; font-style:normal; line-height:inherit;}
+#info ul li blockquote:before, #info ul li blockquote:after{content:'';}
+#info ul li figure{}
+#info ul li figure img{float:left; padding:4px; border:1px solid #D7D7D7;}
+#info ul li figure figcaption{display:block; float:right; width:400px;}
+#info ul li figure figcaption h2{margin-bottom:0; font-size:16px; font-weight:bold;}
+#info ul li figure figcaption p{}
+#info ul li figure figcaption footer{text-align:right;}
+
+
+/* ---------------------------------------------------------------------------------------------------------- */
+/* ---------------DO NOT CHANGE THE FOLLOWING CODE OTHERWISE THE SERVICES PANEL WONT WORK-------------------- */
+/* ---------------------------------------------------------------------------------------------------------- */
+
+/*
+Product Name: jCarousel
+Version: 0.2.3
+Author: Jan Sorgalla
+Author URI: http://sorgalla.com/jcarousel/
+Licence: Dual licensed under the <a href="http://www.opensource.org/licenses/mit-license.php">MIT</a> and <a href="http://www.opensource.org/licenses/gpl-license.php">GPL</a> licenses.
+*/
+
+.jcarousel-container, .jcarousel-clip, .jcarousel-list{position:relative;}
+.jcarousel-clip, .jcarousel-list{margin:0; padding:0; overflow:hidden;}
+.jcarousel-clip{z-index:2;}
+.jcarousel-list{z-index:1; top:0; left:0;}
